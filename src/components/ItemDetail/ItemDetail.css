@@ -1,0 +1,22 @@
+.detalle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.detalle div{
+    background: #f0eae0;
+    border: 2px solid black;
+    border-radius: 50px;
+    text-align: center;
+    padding: 40px;
+}
+
+.detalle img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
